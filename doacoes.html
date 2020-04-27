@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="en"> 
     
-</body>
+<head>
+<meta charset= "utf-8">
+<link rel="stylesheet" type="text/css" href="DOAÇÕES.css"/>         
+<meta name="viewport" content="width=device-width, initial-scale=1.0">     
+<title>Doações</title> 
+</head> 
+    
+<body>
+<input id="voltar" type="button" value="VOLTAR" onclick="javascript:history.back(-1);" />
+<p id= "titulo" onmouseover="texto()"><font size= "6"> Por que Doar? </font></p>      
+<p id="ong"><h1 align="left"></h1></p>
+    
+<script>
+function texto() {
+var text = "A principal fonte de financiamento das ONGs é a doação em seus diversos tipos: dinheiro, tempo, voluntariado. Atualmente, tem crescido outro tipo de doação, que é o financiamento coletivo, realizado por plataformas virtuais.Essa é uma modalidade que se assemelha à popular “vaquinha”, com a diferença que oferece algo em troca para o doador. Independente do tipo, a necessidade de sobrevivência já é, por si só, um motivo para se investir nas ONGs.<br>Considerando os benefícios que essas entidades proporcionam à sociedade, é preciso garantir sua sustentabilidade, para que continuem agindo nas lacunas deixadas pelo poder público e para que amparem os necessitados. Por isso, o investimento nas ONGs é um ato de amor ao próximo e à sociedade como um todo.";
+document.getElementById('ong').innerHTML = text;
+}
+    
+function dinheiro() {
+var x = "<li>Projeto Eficiência Energética/Viva Rio: C (40604-4) A.G (6640)</li><li>Projeto Agrofloresta Urbana/RioOnWatch: C (0250489-8) A.G (0225)</li><li>Projeto Virada Sustentável: C (280357-7) A.G (6531)</li><li>Projeto Pecsa - Pecuária Sustentável: C (05164241-3) A.G (1087)</li> "; 
+document.getElementById('conta').innerHTML = x;
+}
+function alerta(){
+	var nome = document.getElementById('nome').value;
+	alert("obrigado " + nome + " , sua doação pode mudar o mundo!");
+}
+</script>
+<fieldset>
+<legend id="legenda">
+	<n>Faça sua Doação</n>
+</legend>
+    
+<form onSubmit="alerta()">
+<label><p>NOME 
+	<input type="text" required placeholder="Seu nome" id="nome" /></p></label>
+    
+<label><p>E-MAIL 
+	<input type="email" required placeholder="seuemail@host.com" id="e-mail" /></p></label
+    
+<label><p>TELEFONE 
+	<input type="number" required placeholder="(xx) x xxxx-xxxx" id="telefone" /></p></label>
+    
+<label><p>CPF 
+	<input type="number" required placeholder="ex:xxx.xxx.xxx-xx" id="cpf" /></p></label>
+    
+<label><p>CEP <input type="number" required placeholder="ex:xx.xxx-xxx" id="cep" /></p></label>
+    
+<label><p>PROJETOS PARA DOAR 
+<select id="instituicoes">
+	<option>Selecione</option>
+	<option>Eficiência Energética/Viva Rio</option>
+	<option>Agrofloresta Urbana/RioOnWatch</option>
+	<option>Projeto Virada Sustentável</option>
+	<option>Pecsa - Pecuária Sustentável</option></select></p></label>
+    
+<label>
+	<p>VALOR DA DOAÇÃO <input type="number" required placeholder="R$: xxxx,xx" id="valor" /></p></label>
+    
+<label><p>OPÇÕES DE PAGAMENTO 
+<select onclick="dinheiro()" id="pagamento">
+	<option>Selecione</option>
+	<option>DINHEIRO</option>
+	<option>CRÉDITO</option
+	><option>DÉBITO</option></select></p></label>
+    
+<label><p id="conta"></p></label>
+<label><p>NÚMERO DO CARTÃO 
+	<input type="number" required placeholder="ex:xxxx xxxx xxxx xxxx" id="cartão" /></p></label>
+    
+</fieldset>
+<input id="btn" type="submit" value="Enviar" />
+</form>
+</body> 
 </html>

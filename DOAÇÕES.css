@@ -1,0 +1,246 @@
+#titulo {
+position: absolute;
+top: 23.5%;
+left: 1%;
+width: 300px;
+border-color: black;
+color: black;
+font-family: arial;
+border: 1px solid black;
+box-shadow: 3px 3px 10px black;
+cursor: pointer;
+}
+
+#ong {
+position: absolute;
+top: 30.5%;
+left: 1%;
+width: 450px;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+}
+
+#titulo:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#ong:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+fieldset {
+position: absolute;
+top: 25%;
+left: 30%;
+width: 1000px;
+height: 700px;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+}
+
+#legenda {
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+}
+
+#nome {
+position: absolute;
+top: 8.5%;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 110px;
+}
+
+#cpf {
+position: absolute;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 110px;
+}
+
+#e-mail {
+position: absolute;
+top: 18;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 110px;
+}
+
+#telefone {
+position: absolute;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 110px;
+}
+
+#cep {
+position: absolute;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 110px;
+}
+
+#instituicoes {
+position: absolute;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 51px;
+cursor: pointer;
+}
+
+#valor {
+position: absolute;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 110px;
+}
+
+#pagamento {
+position: absolute;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 179px;
+cursor: pointer;
+}
+
+#cartão {
+position: absolute;
+left: 35%;
+color: black;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+font-size: 25px;
+border-radius: 10px;
+padding: 2px 110px;
+}
+
+#btn {
+position: absolute;
+top: 91.9%;
+left: 70%;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+border-radius: 10px;
+padding: 5px 70px;
+font-size: 20px;
+cursor: pointer;
+}
+
+#voltar {
+position: absolute;
+top: 3%;
+left: 2%;
+font-family: arial;
+box-shadow: 3px 3px 10px black;
+border-radius: 10px;
+font-size: 20px;
+cursor: pointer;
+}
+
+#caixinha {
+border-radius: 10px;
+box-shadow: 3px 3px 10px black;
+border: 1px solid black;
+}
+
+#legenda:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#nome:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#cpf:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#e-mail:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#telefone:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#cep:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#instituicoes:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#valor:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#pagamento:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#cartão:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#btn:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
+
+#voltar:hover {
+background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+box-shadow: 6px 6px 20px black;
+}
