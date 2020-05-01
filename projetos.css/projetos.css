@@ -1,0 +1,36 @@
+body{
+    background-image: url(imagens/folinha.jpg);
+}
+#barra{
+    border: solid 1px black;
+    background-image: url();
+    float: center;
+}
+#primeiro{
+    border: solid 1px black;
+    text-align: center;
+  
+
+}
+#segundo{
+    border: solid 1px black;
+    text-align: center;
+    
+}
+#terceiro{
+    border: solid 1px black;
+    text-align: center;
+
+}
+#quarto{
+    border: solid 1px #000000;
+    text-align: center;
+}
+#carouosel{
+    float: center;
+}
+#titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 6px;
+}
