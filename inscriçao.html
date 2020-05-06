@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Inscrições</title>
+   <style> #fonts { text-shadow: 1px 1px black; } </style>
+   <link rel="stylesheet" type="text/css" href="inscrição.css" />
+   <link rel="stylesheet" href="home.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+    
+<body>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <header> 
+        <div id="interface">
+            <header id="cabeçalho"> <!-- Cabeçalho do site-->
+                <h1>Economia Sustentável</h1>
+                <br>
+                <nav class=" menu">
+                    <ul class="nav justify-content-center">
+                       <a href="home.html"> <li> <button type="button" class="btn btn-outline-dark"> Home </button></li></a>
+                       <a href="ongs.html"> <li> <button type="button" class="btn btn-outline-dark"> Ongs </button></li></a>
+                       <a href="projetos.html"> <li> <button type="button" class="btn btn-outline-dark"> Projetos </button></li></a>
+                       <a href="doacoes.html"> <li> <button type="button" class="btn btn-outline-dark"> Doações </button></li></a>
+                       <a href="inscriçao.html"> <li> <button type="button" class="btn btn-outline-dark"> Inscrições </button></li></a>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </header>
+
+<div id='container'>
+
+  <div id="formulario"> 
+    
+      <div id = "tituloo">
+       <br>
+        <h1 align='center'> Faça agora seu cadastro </h1>
+        </div>
+
+           <form method="post" onSubmit="btnSubmit()">
+            
+              <fieldset >
+                <legend id="legenda">Inscrição</legend>
+                  <font size="5"  id="fonts">
+
+                    <label><div id="boxNome">Nome <input type="text" required placeholder="Ex: João;o" id="primeiro" /></div></label><br>
+                    <label><div id="boxCpf">Cpf <input type="number" required placeholder="Ex: xxx.xxx.xxx-xx" id="cpf" /></div></label></br>
+                    <label><div id="boxEmail">E-mail  <input type="email" required placeholder="Ex: aluno@gmail.com" id="mail"  /> </div></label><br> 
+                    <label><div id="boxEndereco">Endereço  <input type="text" required placeholder="Ex: Cidade/Bairro/Rua" id="endereco"  /></div></label> </br> 
+                
+                <h6 align="center"><input type="submit" value="Enviar" id="submit"/> <input type="reset" value="limpar" id="reset"/></h6>
+            </fieldset>
+         </font>
+    </div>
+    </form>
+ 
+     <div id= "card1">
+            <h6  align = " left " >
+            <p onclick="x()" id="href" > Vantagens de sua participação </a></p>
+            <p id="x"></p>
+            <p id="y"></p>
+            </h6>  
+     </div>
+  
+    <div id= "card2">
+         <h6>
+            <p onclick="txt()" id="z"> Como se tornar um membro ?<p>
+            <p id="p"></p>
+         </h6>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <img src="_img/planeta.png">
+
+<script type="text/javascript" charset="utf-8">
+
+function x() {
+    
+
+    var text = "Desempenho ambiental reduz o risco, diminui os custos, aumenta a produtividade e melhora a reputação. Milhares de organizações trabalham com vantagens sustent&aacute;veis apostando em atividades como: ";
+
+    var textTwo = "<n>(A)<n> Gerenciar riscos ambientais e garantir o cumprimento<br><n>(B)<n> Usar os recursos de forma mais eficiente<br><n>(C)</n> Integrar estrat&eacute;gias ambientais com planejamento de neg&oacute;cios<br> <n>(D)</n> Medir a pegada de carbono e gerenciar as emiss&otilde;es<br><n>(E)</n> Melhorar o relacionamento com clientes, fornecedores e comunidade <br><n>(F)</n> Envolver e treinar pessoal para se tornar um empregador sustent&aacute;vel";
+
+    document.getElementById('y').innerHTML = textTwo;
+
+    document.getElementById('x').innerHTML = text;
+    
+}
+
+function txt() {
+    
+
+    var text = "<n>1&ordm;</n> Voc&ecirc; deve preencher todos os campos obrigat&oacute;rios.<br><br><n>2&ordm;</n> Voc&ecirc; receber&aacute; um e-mail de confirma&ccedil;&atilde;o.<br><br><n>3&ordm;</n> Ap&oacute;s a confirma&ccedil;&atilde;o do e-mail, voc&ecirc; ser&aacute; direcionado para o grupo de membros.";
+
+    document.getElementById('p').innerHTML = text;
+}
+function btnSubmit() {
+
+
+    var nomeElement = document.getElementById('primeiro');
+
+    var nome = nomeElement.value;
+
+    var r = prompt("Deseja receber as novidades?");
+
+    var x;
+
+    if(r==true) {
+
+        alert(nome + ' Obrigado@ em breve poderemos entrar em contato :D');
+    }
+
+    if(r==false) {
+ 
+        alert('Poxa ' + nome + ', Vai ignorar mesmo nossos e-mails..  :(');
+    }
+
+}
+
+</script>
+</div>
+
+<div class="footer">
+    <footer class="footer">
+     <hr>
+     <p><strong> Economia sustentável</strong></p>
+     <p> Brasília-DF</p>
+     <p><strong> @ecoverde</strong></p>
+     <a href=" https://www.instagram.com/ecoverdemt/?hl=pt-br"> <img src="insta.png"> <img src="face.png"> </a>
+     </footer>
+   </div>
+  </nav>
+</footer>
+ 
+</body>
+</html>

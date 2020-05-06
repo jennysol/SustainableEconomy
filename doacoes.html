@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-
-<html lang="en"> 
-    
-<head>
-	
-<meta charset= "utf-8">
-	
-<link rel="stylesheet" type="text/css" href="DOAÇÕES.css"/>    
-	
-<meta name="viewport" content="width=device-width, initial-scale=1.0">    
-	
-<title>Doações</title> 
-	
+<html lang="en">   
+<head> 	
+  <meta charset= "utf-8">
+  <link rel="stylesheet" type="text/css" href="DOACOES.css"/>   
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <title>Doações</title> 	
 </head> 
     
 <body>
 	
-<input id="voltar" type="button" value="VOLTAR" onclick="javascript:history.back(-1);" />
+	<header> 
+        <div id="interface">
+            <header id="cabeçalho"> <!-- Cabeçalho do site-->
+                <h1>Economia Sustentável</h1>
+                <br>
+                <nav class=" menu">
+                    <ul class="nav justify-content-center">
+                       <a href="home.html"> <li> <button type="button" class="btn btn-outline-dark"> Home </button></li></a>
+                       <a href="ongs.html"> <li> <button type="button" class="btn btn-outline-dark"> Ongs </button></li></a>
+                       <a href="projetos.html"> <li> <button type="button" class="btn btn-outline-dark"> Projetos </button></li></a>
+                       <a href="doacoes.html"> <li> <button type="button" class="btn btn-outline-dark"> Doações </button></li></a>
+                       <a href="inscriçao.html"> <li> <button type="button" class="btn btn-outline-dark"> Inscrições </button></li></a>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </header>
+
+	<br>
+	<br>
+<p id= "titulo" onmouseover="texto()"> <font size= "5"> Por que Doar? </font> </p>     
 	
-<p id= "titulo" onmouseover="texto()"><font size= "6"> Por que Doar? </font></p>     
-	
-<p id="ong"><h1 align="left"></h1></p>
-    
+<p id="ong"> <h1 align="left"></h1></p>
+<br>
+<br>
+<img src="_img/luz.png">
+
 <script>
 	
 function texto() {
@@ -58,28 +74,27 @@ function alerta(){
 </legend>
     
 <form onSubmit="alerta()">
-	
 <label>
 	
-	<p>NOME <input type="text" required placeholder="Seu nome" id="nome" /></p></label>
+	<p id="nomes" >Nome<input type="text" required placeholder="Seu nome" id="nome" /></p></label>
     
 <label>
 	
-	<p>E-MAIL <input type="email" required placeholder="seuemail@host.com" id="e-mail" /></p></label
+	<p id="emails">E-mail <input type="email" required placeholder="seuemail@host.com" id="e-mail" /></p></label>
     
 <label>
 	
-	<p>TELEFONE <input type="number" required placeholder="(xx) x xxxx-xxxx" id="telefone" /></p></label>
+	<p id="telefones">Telefone<input type="number" required placeholder="(xx) x xxxx-xxxx" id="telefone" /></p></label>
     
 <label>
 	
-	<p>CPF <input type="number" required placeholder="ex:xxx.xxx.xxx-xx" id="cpf" /></p></label>
+	<p id="cpfs">Cpf <input type="number" required placeholder="ex:xxx.xxx.xxx-xx" id="cpf" /></p></label>
     
 <label>
 	
-	<p>CEP <input type="number" required placeholder="ex:xx.xxx-xxx" id="cep" /></p></label>
+	<p id="ceps">Cep<input type="number" required placeholder="ex:xx.xxx-xxx" id="cep" /></p></label>
     
-<label><p>PROJETOS PARA DOAR <select id="instituicoes">
+<label><p id="projetos"> Projetos para doar<select id="instituicoes">
 	
 	<option>Selecione</option>
 	
@@ -93,19 +108,19 @@ function alerta(){
     
 <label>
 	
-	<p>VALOR DA DOAÇÃO <input type="number" required placeholder="R$: xxxx,xx" id="valor" /></p></label>
+	<p id="valores">Valor para doação<input type="number" required placeholder="R$: xxxx,xx" id="valor" /></p></label>
     
-<label><p>OPÇÕES DE PAGAMENTO 
+<label><p id="pagamentos">Opção de pagamento 
 
 <select onclick="dinheiro()" id="pagamento">
 	
 	<option>Selecione</option>
 	
-	<option>DINHEIRO</option>
+	<option>Dinheiro</option>
 	
-	<option>CRÉDITO</option>
+	<option>Crédito</option>
 	
-	<option>DÉBITO</option>
+	<option>Débito</option>
 	
 </select></p></label>
     
@@ -113,19 +128,29 @@ function alerta(){
 	
 	<p id="conta"></p></label>
 	
-<label><p>NÚMERO DO CARTÃO <input type="number" required placeholder="ex:xxxx xxxx xxxx xxxx" id="cartão" /></p></label>
+<label><p id="carton">Número do cartão<input type="number" required placeholder="ex:xxxx xxxx xxxx xxxx" id="cartão" /></p></label>
 	
     <h5 align="center">
 	    
 	<input id="btn" type="submit" value="Enviar" />
 	
 	</h5>
-	
+</div>	
 </fieldset>
 	
 	
 </form>
 	
+<div class="footer">
+	<footer class="footer">
+	 <hr>
+	 <p><strong> Economia sustentável</strong></p>
+	 <p> Brasília-DF</p>
+	 <p><strong> @ecoverde</strong></p>
+	 <a href=" https://www.instagram.com/ecoverdemt/?hl=pt-br"> <img src="insta.png"> <img src="face.png"> </a>
+	 </footer>
+   </div>
+
 </body> 
 
 </html>

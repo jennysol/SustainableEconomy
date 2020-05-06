@@ -1,0 +1,29 @@
+#first{
+text-align:left;
+border: solid 1px black;
+font-size: 18px;
+}
+body{
+background-image:url("folinha.jpg");
+}
+#segund{
+text-align:right;
+border: solid 1px black;
+font-size: 18px;
+}
+#third{
+text-align: left;
+border: solid 1px black;
+font-size: 18px;
+}
+
+#four{
+text-align: right;
+border: solid 1px black;
+font-size: 18px;
+}
+#five{
+text-align: left;
+border: solid 1px black;
+font-size: 18px;
+}

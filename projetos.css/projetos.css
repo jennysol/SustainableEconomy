@@ -1,36 +1,51 @@
 body{
-    background-image: url(imagens/folinha.jpg);
+    background-image: url(lindo.png);
 }
-#barra{
+
+#barra {
     border: solid 1px black;
     background-image: url();
     float: center;
 }
-#primeiro{
-    border: solid 1px black;
-    text-align: center;
-  
 
-}
-#segundo{
+#primeiro {
     border: solid 1px black;
     text-align: center;
-    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(238, 233, 233, 0.55);
 }
-#terceiro{
-    border: solid 1px black;
-    text-align: center;
 
+#segundo {
+    border: solid 1px black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(238, 233, 233, 0.55);
 }
-#quarto{
+
+
+#terceiro {
+    border: solid 1px black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(238, 233, 233, 0.55);
+}
+
+
+#quarto {
     border: solid 1px #000000;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(238, 233, 233, 0.55);
 }
-#carouosel{
-    float: center;
+
+#carouosel {
+    float: center; 
 }
-#titulo{
+
+#titulo {
     text-align: center;
     font-size: 50px;
     font-weight: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: black;
 }

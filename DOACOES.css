@@ -1,25 +1,25 @@
 #titulo {
-position: absolute;
-top: 23.5%;
+position: left;
+top: 100%;
 left: 1%;
 width: 300px;
 border-color: black;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 border: 1px solid black;
 box-shadow: 3px 3px 10px black;
 cursor: pointer;
 }
 
 #ong {
-position: absolute;
+position: left;
 top: 30.5%;
 left: 1%;
-width: 450px;
+width: 300px;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 18px;
 }
 
 #titulo:hover {
@@ -36,7 +36,7 @@ fieldset {
 position: absolute;
 top: 25%;
 left: 30%;
-width: 1000px;
+width: 800px;
 color: black;
 font-family: arial;
 box-shadow: 3px 3px 10px black;
@@ -46,117 +46,148 @@ border-radius: 10px;
 
 #legenda {
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
 font-size: 25px;
 border-radius: 10px;
 }
 
 #nome {
-position: absolute;
+position:left;
 top: 8.5%;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
+border-radius: 10px;
+padding: 1px 79px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#nomes {
+    font-family: 'Times New Roman', Times, serif;
+}
+#cpf {
+position: left;
+left: 35%;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+box-shadow: 3px 3px 10px black;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 79px;
 }
 
-#cpf {
-position: absolute;
-left: 35%;
-color: black;
-font-family: arial;
-box-shadow: 3px 3px 10px black;
-font-size: 25px;
-border-radius: 10px;
-padding: 1px 79px;
+#cpfs {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #e-mail {
-position: absolute;
+position: left;
 top: 18;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 79px;
+}
+
+#emails {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #telefone {
-position: absolute;
+position: left;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 79px;
 }
 
+#telefones{
+    font-family: 'Times New Roman', Times, serif;
+}
 #cep {
-position: absolute;
+position: left;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 79px;
 }
 
+#ceps {
+    font-family: 'Times New Roman', Times, serif;
+}
 #instituicoes {
-position: absolute;
+position: left;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 0px;
 cursor: pointer;
 }
 
 #valor {
-position: absolute;
+position: left;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 79px;
 }
+ #valores{
+     font-family: 'Times New Roman', Times, serif;
+ }
 
 #pagamento {
-position: absolute;
+position: left;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 147px;
 cursor: pointer;
 }
 
+#pagamentos {
+    font-family: 'Times New Roman', Times, serif;
+}
 #cartão {
-position: absolute;
+position: left;
 left: 35%;
 color: black;
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
-font-size: 25px;
+font-size: 15px;
 border-radius: 10px;
 padding: 1px 79px;
 }
 
+#carton{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#projetos{
+    font-family: 'Times New Roman', Times, serif;
+}
 #btn {
-font-family: arial;
+font-family: 'Times New Roman', Times, serif;
 box-shadow: 3px 3px 10px black;
 border-radius: 10px;
 padding: 5px 70px;
@@ -164,15 +195,9 @@ font-size: 20px;
 cursor: pointer;
 }
 
-#voltar {
-position: absolute;
-top: 3%;
-left: 2%;
-font-family: arial;
-box-shadow: 3px 3px 10px black;
-border-radius: 10px;
-font-size: 20px;
-cursor: pointer;
+#legendas {
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 #caixinha {
@@ -182,8 +207,9 @@ border: 1px solid black;
 }
 
 #legenda:hover {
-background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
+background: linear-gradient(to buttom,rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 20px black;
+background-color: rgb(18, 88, 92) 5%, #8FBC8F 500%;
 }
 
 #nome:hover {
@@ -232,11 +258,6 @@ box-shadow: 6px 6px 20px black;
 }
 
 #btn:hover {
-background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
-box-shadow: 6px 6px 20px black;
-}
-
-#voltar:hover {
 background: linear-gradient(to buttom, #8FBC8F 5%, #8FBC8F 100%);
 box-shadow: 6px 6px 20px black;
 }

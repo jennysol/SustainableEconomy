@@ -1,21 +1,22 @@
 body {
-background-image: url(img/folinha.jpg);
+background-image: url(lindo.png);
+}
+
+#tituloo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
 }
 
 
-#seta { position: absolute; 
-top: 20%; 
-left: 50%;
- }
-
-
 fieldset { position: absolute;
-top: 38%; 
-left: 29%; 
-width: 520px;  
-border-color: #DCDCDC;
+top: 40%; 
+left: 30%; 
+width: 550px;  
+border-color: black;
 border-radius: 20px;
 box-shadow: 0px 0px 10px black;
+font-family: 'Times New Roman', Times, serif;
+
  }
 
 #reset {
@@ -23,7 +24,7 @@ box-shadow: 0px 0px 10px black;
  border-radius:10px;
  display:inline-block;
  cursor:pointer;
- font-family:arial;
+ font-family:'Times New Roman', Times, serif;
  font-weight:bold;
  font-size:11px;
  padding:6px 30px;
@@ -33,7 +34,7 @@ box-shadow: 0px 0px 10px black;
 }
 
 #reset:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
 }
 
@@ -46,7 +47,7 @@ border:1px solid black;
 border-radius:10px;
 display:inline-block;
 cursor:pointer;
-font-family:arial;
+font-family:'Times New Roman', Times, serif;
 font-weight:bold;
 font-size:11px;
 padding:6px 30px;
@@ -56,7 +57,7 @@ opacity: 0.7;
 }
 
 #submit:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
 }
 
@@ -66,14 +67,14 @@ top:3px;}
 
 #primeiro { 
  position: absolute;
- top: 10.2%;
+ top: 15%;
  left: 60%;
  border:1px solid #DCDCDC;
  border-radius: 10px;
  font-family: arial;
  font-weight: bold;
  font-size: 11px;
- padding:4px 30px;
+ padding:3px 15px;
  text-decoration:none;
  box-shadow: 3px 3px 3px black;
  background-color: lightgrey;
@@ -83,20 +84,20 @@ top:3px;}
 }
 
 #boxNome:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
-border-radius: 10px;
+border-radius: 5px;
 cursor: pointer;
 }
 
 #cpf { position: absolute;
- top: 25.1%;
+ top: 28%;
  left: 60%;
- border:1px solid #DCDCDC;
+ border:1px solid black;
  border-color: black;
  border-radius: 10px;
- font-family:arial;
  font-weight:bold;
+ font-family: 'Times New Roman', Times, serif;
  font-size:11px;
  padding:4px 30px;
  text-decoration:none;
@@ -106,20 +107,21 @@ cursor: pointer;
  cursor: pointer;
  }
 
+
 #boxCpf:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
 border-radius: 10px;
 cursor: pointer;
 }
 
 #mail { position: absolute;
- top: 39.7%;
+ top: 42%;
  left: 60%;
  border:1px solid #DCDCDC;
  border-color: black;
  border-radius: 10px;
- font-family:arial;
+ font-family:'Times New Roman', Times, serif;
  font-weight:bold;
  font-size:11px;
  padding:4px 30px;
@@ -131,7 +133,7 @@ cursor: pointer;
  }
 
 #boxEmail:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
 border-radius: 10px;
 cursor: pointer;
@@ -139,13 +141,13 @@ cursor: pointer;
 
 #endereco { 
  position: absolute;
- top: 54.6%;
+ top: 56%;
  left: 60%;
  border:1px solid #DCDCDC;
  border-color: black;
  border-radius: 10px;
  background-color: #FFFAF0;
- font-family:arial;
+ font-family:'Times New Roman', Times, serif;
  font-weight:bold;
  font-size:11px;
  padding:4px 30px;
@@ -157,131 +159,110 @@ cursor: pointer;
 }
 
 #boxEndereco:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
 border-radius: 10px;
 cursor: pointer;
 }
 
 #x {
- position: absolute;
+ position: left;
  top: 16%;
  left: 3%;
  width: 280px;
  font-family:arial;
- color: #CDC5BF;
- text-shadow: 1px 1px black;
+ color: black;
  border-radius: 10px;
- font-family:arial;
+ font-family:'Times New Roman', Times, serif;
  box-shadow: 2px 2px 25px black; 
  font-size: 25;
 }
 
 #y {
- position: absolute;
+ position: left;
  top: 44%;
  left: 3%;
  width: 280px;
- font-family:arial;
- color: #CDC5BF;
- text-shadow: 1px 1px black;
+ font-family:'Times New Roman', Times, serif;
+ color:black;
  border-radius: 10px;
- font-family:arial;
+ font-family:'Times New Roman', Times, serif;
  box-shadow: 2px 2px 25px black; 
  font-size: 18;
 }
 
 #href {
- position: absolute;
- top: 11%;
+ position: left;
+ top: 20%;
  left: 3%;
  border:1px solid black;
  border-radius: 10px;
  border-radius: 10px;
- font-family:arial;
- color: #CDC5BF;
- text-shadow: 1px 1px black;
+ font-family:'Times New Roman', Times, serif;
+ color: black;
  width: 280px;
  cursor: pointer;
  box-shadow: 0px 0px 10px black;
 }
 
 #href:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 20px black;
 }
 
-#titulo { 
 
- border:1px solid black;
- border-radius: 10px;
- font-family:arial;
- color: #CDC5BF;
- text-shadow: 2px 2px black;
- box-shadow: 0px 0px 10px black;
-}
-
-#titulo:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
-box-shadow: 6px 6px 20px black;
-}
 
 #x:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 20px black;
 }
 
 #y:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 20px black;
 }
  
 #primeiro:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
 }
 
 
 #cpf:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 6px black;
 }
 
 #mail:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom, );
 box-shadow: 6px 6px 6px black;
 }
 
 #endereco:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%);
+background:linear-gradient(to bottom,);
 box-shadow: 6px 6px 6px black;
 }
 
 #legenda {
  border-radius: 10px;
- border:1px solid black;
- font-family:arial;
- color: #CDC5BF;
+ background-color:rgb(61, 110, 103);
+ font-family:'Times New Roman', Times, serif;
+ color:black;
  text-shadow: 1px 1px black;
  box-shadow: 3px 3px 3px black;
  
 }
 
-#legenda:hover { 
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%); 
-box-shadow: 6px 6px 6px black;
-}
 
 #z {
  position: absolute;
- top: 11%;
+ top: 29%;
  left: 76.5%;
  cursor: pointer;
  border-radius: 10px;
  border:1px solid black;
- font-family:arial;
- color: #CDC5BF;
- text-shadow: 1px 1px black;
+ font-family:'Times New Roman', Times, serif;
+ color: black;
  box-shadow: 0px 0px 10px black;
  width: 400;
 
@@ -290,46 +271,40 @@ box-shadow: 6px 6px 6px black;
 #p { 
 
  position: absolute;
- top: 17%;
+ top: 40%;
  left: 76.5%;
  border-radius: 10px;
- font-family:arial;
- color: #CDC5BF;
- text-shadow: 1px 1px black;
+ font-family:'Times New Roman', Times, serif;
+ color: black;
  box-shadow: 0px 0px 10px black; 
  width: 260px;
 }
 
 #p:hover { 
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%); 
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 3px 3px 20px black;
 }
 
 #z:hover { 
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%); 
+background:linear-gradient(to bottom, rgb(18, 88, 92) 5%, #8FBC8F 500%);
 box-shadow: 6px 6px 20px black;
 }
 
-#voltar {
- border:1px solid black;
- border-radius:10px;
- display:inline-block;
- cursor:pointer;
- font-family:arial;
- font-weight:bold;
- font-size:11px;
- padding:6px 10px;
- text-decoration:none;
- box-shadow: 3px 3px 20px black;
- opacity: 0.7;
+
+#footer {
+    color: rgb(61, 110, 103);
+    box-shadow: 0px 0px 10px black;
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
 }
 
-#voltar:hover {
-background:linear-gradient(to bottom, #8FBC8F 5%, #8FBC8F 100%); 
-box-shadow: 6px 6px 6px black;
+.navbar-custom { 
+
+    background-color: rgb(61, 110, 103); 
+
 }
 
-#voltar:active {
-position:relative;
-left:5px;
-}

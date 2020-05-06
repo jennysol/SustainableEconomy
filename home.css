@@ -51,12 +51,21 @@ div#corpo {
     font-size: 20px;
     width: 1225px;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 
+div#texto {
+    background-color:  rgba(238, 233, 233, 0.55);
+}
+
+div#texto2 {
+    background-color:  rgba(238, 233, 233, 0.55);
+}
 .footer {
     background-color: rgb(61, 110, 103);
     box-shadow: 0px 0px 10px black;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 

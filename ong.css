@@ -1,0 +1,62 @@
+body{
+    background-image: url("lindo.png");
+}
+
+#ongs {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: black 1px 0px 1px;
+}
+
+#first{
+    text-align:left;
+    border: solid 1px black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  rgba(238, 233, 233, 0.55);
+    }
+
+    #segund{
+    text-align:left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  rgba(238, 233, 233, 0.55);
+    border: solid 1px black;
+    }
+
+    #third{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  rgba(238, 233, 233, 0.55);
+    border: solid 1px black;
+    }
+
+    section#corpo {
+        display: block;
+        width: 650px;
+        float: left;
+    }
+    
+    #four{
+    text-align: left;
+    border: solid 1px black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  rgba(238, 233, 233, 0.55);
+    }
+
+    #five{
+    text-align: left;
+    border: solid 1px black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  rgba(238, 233, 233, 0.55);
+    }
+
+    aside#lateral {
+        display: block;
+        width: 400px;
+        float: right;
+        border: solid 1px black;
+      } 
